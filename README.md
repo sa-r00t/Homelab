@@ -11,7 +11,7 @@ Ici je vous présente de façon détaillé ma configuration et la façon dont j'
 
 ----------------------------
 
-### 1. ⚙ HARDWARE
+## 1. ⚙ HARDWARE
 
 
 Pour héberger des services il en faut peu on peut facilement recycler des vielles machines et leurs donner une seconde vie, les 3 grands critéres pour moi sonts Le coût ( a la consomation et en matériel), le bruit ( je veut une machine qui soit le plus silencieuse possible ) et la puissance (plus on a une machine puissante plus on peut héberger des services demandant et dans certains cas méme heberger des llms locaux) .
@@ -80,4 +80,7 @@ Pour ma part j'ai choisi un Raspberry pi 4B avec 8gb de ram c'est un sbc assez p
   <em>Shémas réseau</em>
 </div>
 
+
+
+## Spécification Software
 
