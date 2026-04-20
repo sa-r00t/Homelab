@@ -72,13 +72,7 @@ Pour ma part j'ai choisi un Raspberry pi 4B avec 8gb de ram c'est un sbc assez p
   <em>montage complet</em>
 </div>
 
-<br/>
 
-<div align="center">
-  <img width="450" alt="Shémas réseau" src="https://github.com/user-attachments/assets/78dca411-93b5-4265-9fb9-2e36ae04158d" />
-  <br/>
-  <em>Shémas réseau</em>
-</div>
 
 
 Maintenant que notre machine est prête on va choisir un systeme d'éxploitation.
@@ -137,4 +131,23 @@ L'énorme avantage ici, c'est qu'on idle à environ **1-2% de CPU et 80-120 Mo d
 
 CPU overclocké de **1.5 GHz** → **1.9 GHz**. Température stable sous 50°C grâce au ventilateur. L'overclocking, combiné à la légèreté de DietPi, me laisse une marge confortable pour héberger une multitude de services.
 
-# 🛠 Services 
+# 📡 Réseau 
+
+
+Pour ma configuration réseau j'ai fait quelque chose de simple 
+
+
+j'avais déja un switch non géré qui connectais une partie de mes apareils a mon routeur donc j'y ai juste branché ma machine 
+
+
+<br/>
+
+<div align="center">
+  <img width="450" alt="Shémas réseau" src="https://github.com/user-attachments/assets/78dca411-93b5-4265-9fb9-2e36ae04158d" />
+  <br/>
+  <em>Shémas réseau</em>
+</div>
+
+<br/>
+
+
