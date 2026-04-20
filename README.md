@@ -5,7 +5,7 @@
 ## Préambule 
 
 
-Aujourdhui plus que jamais les services tiers auquels on a recours abusent de notre confiance et éxploitent nos données a grande échelle, ma réponse a ce propbléme est Mon homelab , bien qu'on ne puisse pas échapper a l'emprise de tout les services externes on peut en héberger une grande partie et baisser notre empreinte numérique et reprendre le controle sur nos données
+Aujourdhui plus que jamais les services tiers auquels on a recours abusent de notre confiance et éxploitent nos données a grande échelle, ma réponse a ce propbléme est Mon homelab , bien qu'on ne puisse pas échapper a l'emprise de tout les services externes on peut en héberger une grande partie, baisser notre empreinte numérique et reprendre le controle sur nos données
 
 Ici je vous présente de façon détaillé ma configuration et la façon dont j'héberge mes propres services chez moi avec un coût matériel et énérgetique moindre . 
 
@@ -83,5 +83,32 @@ Pour ma part j'ai choisi un Raspberry pi 4B avec 8gb de ram c'est un sbc assez p
 
 Maintenant que notre machine est prête on va choisir un systeme d'éxploitation.
 
-## Spécification Software
+## 💻 Spécification Software
+
+
+Nous allons désormais chosir un systeme d'éxploitation selon nos besoins 
+
+il nous faut une distribution linux légere, stable et sécurisé ce qui est essentiel pour héberger des services en continu
+
+| Critère       | Exigence                                                                |
+|---------------|-------------------------------------------------------------------------|
+| **Stabilité** | il faut que sa tourne sans problemes sur ma machine sans avoir a toujours faire de la maintenance et sans planter quand on ne s'y attend pas  |
+| **légereté**  | on a besoin d'un systeme conçu pour l'architécture ARM de mon prcesseur et qu'il puisse tourner sans avoir une grosse empreinte sur mes ressources                   |
+| **Sécurité** | Mises a jours réguliéres  |
+
+Si je veux de la stabilité et de la sécurité je dois m'orienter vers debian qui est reconnue et une trés grandes partie des distributions linux se basent dessus, J'avais devant moi 3 choix 
+
+#### *Ubuntu server*:
+
+distribution classique basée sur debian est trés connue dans le millieu du self-host le probléme est le fait qu'ubuntu appartient a cannonical ce qui me retiens déja , sans parler des bloatwares additionels qui font que le systéme d'éxploitation idle a 25% d'utilisation cpu et 3 gb de ram ce qui est éliminatoire pour moi 
+
+#### *Raspberry pi OS*:
+
+
+c'est la distribution la plus populaire sur les Raspberry pi en général basée sur debian, on a une vérsion headless qui permet d'enlever l'interface utilisateur et tout ce qui est nécessaire pour une utilisation érgonomique du systéme d'exploitation mon souçis ici est qu'on idle a 10% d'utilisation cpu et 1 gb de ram ce qui est déja bien meilleur qu'ubuntu server mais le vrai probléme pour moi ici c la taille de la librairie de base qui est limitée (je pourrais trés bien ajouter des librairies a ma guise mais c'est pour moi une autre faille en plus a surveiller 
+
+
+#### *Diet pi*:
+
+Diet pi est une distribution basée sur débian qui a pour but d'étre la plus légere possible on n'a que le strict minimum ce qui est parfait dans mon cas, on a aussi une librairie variée avec mes outils et logiciels habituels, mais l'énorme avantage ici c'est qu'on idle a 5% de cpu et 500 mb de ram ce qui est complétement lunaire et recherché dans mon cas 
 
