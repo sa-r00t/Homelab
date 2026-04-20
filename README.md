@@ -135,7 +135,6 @@ L'énorme avantage ici, c'est qu'on idle à environ **1-2% de CPU et 80-120 Mo d
 
 ### Overclocking
 
-CPU overclocké de **1.5 GHz** → **1.9 GHz**. Température stable sous 50°C grâce au ventilateur. On gagne de la puissance en plus de l'os léger qui nous laisse de la marge pour heberger une multitude de services 
-
+CPU overclocké de **1.5 GHz** → **1.9 GHz**. Température stable sous 50°C grâce au ventilateur. L'overclocking, combiné à la légèreté de DietPi, me laisse une marge confortable pour héberger une multitude de services.
 
 # 🛠 Services 
