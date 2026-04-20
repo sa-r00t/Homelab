@@ -172,4 +172,46 @@ Maintenant que tout est prêt on peut attaquer le projet et commencer a installe
 
 --------------------------------------------------------
 
-# 🛠 Services
+## 🛠 Services
+
+Mon Raspberry Pi héberge plusieurs services en conteneurs Docker :
+
+### 📸 Immich
+Alternative à Google Photos. Sauvegarde automatique de mes photos, reconnaissance de visages, partage d'albums.
+
+### 🏠 Home Assistant
+Domotique locale. Gestion des lumières, capteurs de température, automatisations sans passer par le cloud.
+
+### 🎬 Jellyfin
+Serveur multimédia maison. Streaming de mes films et musique sur téléphone, tablette ou TV.
+
+### 🤖 Open WebUI + Ollama
+Interface web pour interagir avec des LLM (Mistral, Llama) en local. Pas d'envoi de données à OpenAI ou autre.
+
+### ⚙️ Windmill
+Plateforme d'automatisation. Alternative à n8n ou Zapier, mais auto-hébergée et open-source.
+
+### 📁 Samba
+Partage de fichiers sur le réseau local. Accès au HDD 500 Go depuis n'importe quel appareil.
+
+### 📊 Homer
+Dashboard central. Page d'accueil perso avec tous mes services en un clic.
+
+### 🔌 ESPHome
+Gestion de mes capteurs maison (ESP8266/ESP32). Température, humidité, présence.
+
+### 🐳 What's Up Docker (WUD)
+Surveillance automatique des mises à jour de mes conteneurs.
+
+### Ressources
+
+Avec 8 Go de RAM, la configuration tient confortablement :
+
+| Métrique | Valeur |
+|----------|--------|
+| RAM utilisée | ~3.5-4 Go |
+| RAM libre | ~3.5-4 Go |
+| CPU moyenne | < 5% |
+| CPU pic | ~18% (base de données) |
+
+La légèreté de DietPi et l'overclocking m'aident à garder de la marge.
