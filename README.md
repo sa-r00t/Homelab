@@ -35,7 +35,7 @@ Pour ma part j'ai choisi un Raspberry pi 4B avec 8gb de ram c'est un sbc assez p
 ### Galerie du matériel:
 
 <div align="center">
-  <img width="450" alt="Vue extérieure face" src="https://github.com/user-attachments/assets/9a0f9193-f69d-456d-8197-4bf9a9c7cb8a" />
+  <img width="450" alt="Raspberry pi 4B avec un dissipateur" src="https://github.com/user-attachments/assets/9a0f9193-f69d-456d-8197-4bf9a9c7cb8a" />
   <br/>
   <em>Raspberry pi 4B avec un dissipateur</em>
 </div>
@@ -43,7 +43,7 @@ Pour ma part j'ai choisi un Raspberry pi 4B avec 8gb de ram c'est un sbc assez p
 <br/>
 
 <div align="center">
-  <img width="450" alt="Vue arrière" src="https://github.com/user-attachments/assets/3ebc6061-be03-42d6-aa94-9b46c136076f" />
+  <img width="450" alt="Raspberry dans son boitié" src="https://github.com/user-attachments/assets/3ebc6061-be03-42d6-aa94-9b46c136076f" />
   <br/>
   <em>Raspberry dans son boitié</em>
 </div>
@@ -51,7 +51,7 @@ Pour ma part j'ai choisi un Raspberry pi 4B avec 8gb de ram c'est un sbc assez p
 <br/>
 
 <div align="center">
-  <img width="450" alt="Intérieur avec ventilateur" src="https://github.com/user-attachments/assets/7289e5e9-7f24-48fb-98de-50341dd81254" />
+  <img width="450" alt="Disque dur HDD 500GB" src="https://github.com/user-attachments/assets/7289e5e9-7f24-48fb-98de-50341dd81254" />
   <br/>
   <em>Disque dur HDD 500GB</em>
 </div>
@@ -59,7 +59,7 @@ Pour ma part j'ai choisi un Raspberry pi 4B avec 8gb de ram c'est un sbc assez p
 <br/>
 
 <div align="center">
-  <img width="450" alt="Connexions GPIO" src="https://github.com/user-attachments/assets/937519a2-8c0b-4c09-8528-8b1becd06205" />
+  <img width="450" alt="Ventilateur" src="https://github.com/user-attachments/assets/937519a2-8c0b-4c09-8528-8b1becd06205" />
   <br/>
   <em>Ventilateur</em>
 </div>
@@ -67,7 +67,7 @@ Pour ma part j'ai choisi un Raspberry pi 4B avec 8gb de ram c'est un sbc assez p
 <br/>
 
 <div align="center">
-  <img width="450" alt="Vue d'ensemble" src="https://github.com/user-attachments/assets/db9dda38-f8cd-4892-8c0b-9a212cff51c3" />
+  <img width="450" alt="montage complet" src="https://github.com/user-attachments/assets/db9dda38-f8cd-4892-8c0b-9a212cff51c3" />
   <br/>
   <em>montage complet</em>
 </div>
@@ -75,7 +75,7 @@ Pour ma part j'ai choisi un Raspberry pi 4B avec 8gb de ram c'est un sbc assez p
 <br/>
 
 <div align="center">
-  <img width="400" alt="Switch TP-Link" src="https://github.com/user-attachments/assets/78dca411-93b5-4265-9fb9-2e36ae04158d" />
+  <img width="400" alt="Shémas réseau" src="https://github.com/user-attachments/assets/78dca411-93b5-4265-9fb9-2e36ae04158d" />
   <br/>
   <em>Shémas réseau</em>
 </div>
