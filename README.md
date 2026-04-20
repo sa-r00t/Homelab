@@ -32,14 +32,52 @@ Pour ma part j'ai choisi un Raspberry pi 4B avec 8gb de ram c'est un sbc assez p
 
 
 
-<img width="1000" height="1200" alt="img 2" src="https://github.com/user-attachments/assets/9a0f9193-f69d-456d-8197-4bf9a9c7cb8a" />
+### Galerie du matériel
 
-<img width="1000" height="1200" alt="img 3" src="https://github.com/user-attachments/assets/3ebc6061-be03-42d6-aa94-9b46c136076f" />
+<div align="center">
+  <img width="450" alt="Vue extérieure face" src="https://github.com/user-attachments/assets/9a0f9193-f69d-456d-8197-4bf9a9c7cb8a" />
+  <br/>
+  <em>Boîtier Lego - Vue extérieure (face avant)</em>
+</div>
 
-<img width="1000" height="1200" alt="img 5" src="https://github.com/user-attachments/assets/7289e5e9-7f24-48fb-98de-50341dd81254" />
+<br/>
 
-<img width="1000" height="1200" alt="img 4" src="https://github.com/user-attachments/assets/937519a2-8c0b-4c09-8528-8b1becd06205" />
+<div align="center">
+  <img width="450" alt="Vue arrière" src="https://github.com/user-attachments/assets/3ebc6061-be03-42d6-aa94-9b46c136076f" />
+  <br/>
+  <em>Connectiques : USB, Ethernet, HDMI, alimentation</em>
+</div>
 
-<img width="1000" height="1200" alt="img1" src="https://github.com/user-attachments/assets/db9dda38-f8cd-4892-8c0b-9a212cff51c3" />
+<br/>
+
+<div align="center">
+  <img width="450" alt="Intérieur avec ventilateur" src="https://github.com/user-attachments/assets/7289e5e9-7f24-48fb-98de-50341dd81254" />
+  <br/>
+  <em>Intérieur : ventilateur 5V et dissipateur sur le CPU</em>
+</div>
+
+<br/>
+
+<div align="center">
+  <img width="450" alt="Connexions GPIO" src="https://github.com/user-attachments/assets/937519a2-8c0b-4c09-8528-8b1becd06205" />
+  <br/>
+  <em>Détail : câblage GPIO du ventilateur</em>
+</div>
+
+<br/>
+
+<div align="center">
+  <img width="450" alt="Vue d'ensemble" src="https://github.com/user-attachments/assets/db9dda38-f8cd-4892-8c0b-9a212cff51c3" />
+  <br/>
+  <em>Le homelab au complet</em>
+</div>
+
+<br/>
+
+<div align="center">
+  <img width="400" alt="Switch TP-Link" src="https://github.com/user-attachments/assets/78dca411-93b5-4265-9fb9-2e36ae04158d" />
+  <br/>
+  <em>Switch TP-Link 5 ports</em>
+</div>
 
 
