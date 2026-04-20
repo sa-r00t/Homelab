@@ -20,15 +20,20 @@ Pour ma part j'ai choisi un Raspberry pi 4B avec 8gb de ram c'est un sbc assez p
 
 - **Raspberry Pi 4B** : 8 gb de ram processeur 4 coeur overclocké a 1.9 Ghz
 - **Disque dur HDD***: disque en 2.5 pouce connecté avec un adaptateur sata vers usb pour 500 gb de stockage additionels
-- **Ventilateur 5V générique**: connécté sur les pins gpio du Raspberry pour refroidir le tout avec un dissipateur sur le processuer 
+- **Ventilateur 5V générique**: connécté sur les pins gpio du Raspberry pour refroidir le tout avec un dissipateur sur le processeur
+- **Boitier**: boitié fait en lego pour le style et la durabilité (je compte en imprimer un en 3D a l'avenir)
 - **Switch** : TP-Link 5 ports 
 
 
 
+<img width="1000" height="1200" alt="img 2" src="https://github.com/user-attachments/assets/9a0f9193-f69d-456d-8197-4bf9a9c7cb8a" />
 
-<img width="1000" height="700" alt="image" src="https://github.com/user-attachments/assets/f36c81a2-02f0-467a-9199-f4b5cf514ac9" />
+<img width="1000" height="1200" alt="img 3" src="https://github.com/user-attachments/assets/3ebc6061-be03-42d6-aa94-9b46c136076f" />
+
+<img width="1000" height="1200" alt="img 5" src="https://github.com/user-attachments/assets/7289e5e9-7f24-48fb-98de-50341dd81254" />
+
+<img width="1000" height="1200" alt="img 5" src="https://github.com/user-attachments/assets/ba4668cb-2d86-4bc9-aec1-a1416f6707cb" />
+
+<img width="1000" height="1200" alt="img1" src="https://github.com/user-attachments/assets/db9dda38-f8cd-4892-8c0b-9a212cff51c3" />
 
 
-
-
-<img width="1000" height="700" alt="image" src="https://github.com/user-attachments/assets/74cb129f-1866-400c-a0e3-0b952bf9ea16" />
