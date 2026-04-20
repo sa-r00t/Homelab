@@ -98,17 +98,44 @@ il nous faut une distribution linux légere, stable et sécurisé ce qui est ess
 
 Si je veux de la stabilité et de la sécurité je dois m'orienter vers debian qui est reconnue et une trés grandes partie des distributions linux se basent dessus, J'avais devant moi 3 choix 
 
-#### *Ubuntu server*:
+### Ubuntu Server
 
-distribution classique basée sur debian est trés connue dans le millieu du self-host le probléme est le fait qu'ubuntu appartient a cannonical ce qui me retiens déja , sans parler des bloatwares additionels qui font que le systéme d'éxploitation idle a 25% d'utilisation cpu et 3 gb de ram ce qui est éliminatoire pour moi 
+Distribution classique basée sur Debian, très connue dans le milieu du self-host.
 
-#### *Raspberry pi OS*:
+**Le problème** : Ubuntu appartient à Canonical. Mon homelab est une démarche de **reprise de contrôle** sur mes données et mes outils. Remplacer la dépendance aux GAFAM par une dépendance à Canonical n'a pas de sens pour moi.
+
+De plus, Ubuntu Server embarque par défaut des services comme `snapd` (gestion de paquets propriétaire) et `cloud-init` dont je n'ai pas besoin. Ce n'est pas "bloatware" dans le sens lourd, mais c'est une **complexité inutile** pour un petit Raspberry Pi.
+
+> ❌ **Verdict : trop éloigné de ma philosophie "minimalisme et contrôle"**
+
+### Raspberry Pi OS
+
+Distribution officielle de la fondation Raspberry Pi, basée sur Debian.
+
+**Le problème** : Même en version Lite (sans interface graphique), Raspberry Pi OS est construit sur une base qui reste orientée "bureau". Cela se traduit par :
+
+- Des bibliothèques graphiques (Wayland, X11) installées par défaut alors que mon serveur n'a pas d'écran
+- Des services comme `lightdm` (gestionnaire de connexion) ou `pulseaudio` (audio) qui tournent inutilement
+- Un système de configuration (`raspi-config`) qui est pratique mais m'éloigne des standards Linux (Debian pur)
+
+**Conséquence** : Chaque service inutile est une ressource gaspillée. Sur un petit Raspberry Pi, je veux que **chaque octet de RAM serve à quelque chose**.
+
+> ❌ **Verdict : trop de services "bureau" résiduels pour un serveur headless**
 
 
-c'est la distribution la plus populaire sur les Raspberry pi en général basée sur debian, on a une vérsion headless qui permet d'enlever l'interface utilisateur et tout ce qui est nécessaire pour une utilisation érgonomique du systéme d'exploitation mon souçis ici est qu'on idle a 10% d'utilisation cpu et 1 gb de ram ce qui est déja bien meilleur qu'ubuntu server mais le vrai probléme pour moi ici c la taille de la librairie de base qui est limitée (je pourrais trés bien ajouter des librairies a ma guise mais c'est pour moi une autre faille en plus a surveiller 
+### DietPi
+
+Distribution basée sur Debian, conçue pour être la plus légère possible.
+
+**L'avantage** : DietPi part d'une base ultra-minimaliste. On n'a que le strict minimum, ce qui est parfait dans mon cas. On a aussi une bibliothèque variée avec mes outils et logiciels habituels.
+
+L'énorme avantage ici, c'est qu'on idle à environ **1-2% de CPU et 80-120 Mo de RAM** — ce qui est excellent et recherché dans mon cas pour un serveur dédié à l'hébergement de services.
+
+> ✅ **Verdict : le plus minimaliste, adapté à mon usage serveur**
+
+### Overclocking
+
+CPU overclocké de **1.5 GHz** → **1.9 GHz**. Température stable sous 50°C grâce au ventilateur. On gagne de la puissance en plus de l'os léger qui nous laisse de la marge pour heberger une multitude de services 
 
 
-#### *Diet pi*:
-
-Diet pi est une distribution basée sur débian qui a pour but d'étre la plus légere possible on n'a que le strict minimum ce qui est parfait dans mon cas, on a aussi une librairie variée avec mes outils et logiciels habituels, mais l'énorme avantage ici c'est qu'on idle a 5% de cpu et 500 mb de ram ce qui est complétement lunaire et recherché dans mon cas 
-
+# 🛠 Services 
