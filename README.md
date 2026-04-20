@@ -32,7 +32,7 @@ Pour ma part j'ai choisi un Raspberry pi 4B avec 8gb de ram c'est un sbc assez p
 
 <img width="1000" height="1200" alt="img 5" src="https://github.com/user-attachments/assets/7289e5e9-7f24-48fb-98de-50341dd81254" />
 
-<img width="1000" height="1200" alt="img 5" src="https://github.com/user-attachments/assets/ba4668cb-2d86-4bc9-aec1-a1416f6707cb" />
+<img width="1000" height="1200" alt="img 4" src="https://github.com/user-attachments/assets/937519a2-8c0b-4c09-8528-8b1becd06205" />
 
 <img width="1000" height="1200" alt="img1" src="https://github.com/user-attachments/assets/db9dda38-f8cd-4892-8c0b-9a212cff51c3" />
 
