@@ -158,13 +158,11 @@ j'avais déja un switch non géré qui connectais une partie de mes apareils a m
 
 J'utilise aussi un outil appelé **Tailscale** qui crée un tunnel réseau privé entre mes appareils clients et servers, j'utilise cet outil car il me permet d'acceder a mes services partout dans le monde grace a une connection internet la ou autrement j'aurais du rediriger mes ports ce qui peut s'averer dangereux, Tailscale est basé sur wireguard et il assigne une ip a chaque appareil connecté sur le vpn cette configuration marche bien pour mon cas car personne n'utilise mes services au dela des membres de ma famille et mes amis
 
-<img width="474" height="474" alt="tailscale logo" src="https://github.com/user-attachments/assets/769726de-e5f5-4f69-a5c5-00b827c968ec" />
-
 
 
 <div align="center">
-  <img width="474" height="474" alt="tailscale logo" src="https://github.com/user-attachments/assets/769726de-e5f5-4f69-a5c5-00b827c968ec" />
-  <em>Raspberry pi 4B avec un dissipateur</em>
+  <img width="1347" height="503" alt="image" src="https://github.com/user-attachments/assets/f14c90fe-3bb8-41c0-9832-c05032fdbb72" />
+  <em>Shémas Tailscale</em>
 </div>
 
 <br/>
