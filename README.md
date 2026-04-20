@@ -77,6 +77,9 @@ Pour ma part j'ai choisi un Raspberry pi 4B avec 8gb de ram c'est un sbc assez p
 
 Maintenant que notre machine est prête on va choisir un systeme d'éxploitation.
 
+
+--------------------------------------------
+
 ## 💻 Spécification Software
 
 
@@ -131,6 +134,8 @@ L'énorme avantage ici, c'est qu'on idle à environ **1-2% de CPU et 80-120 Mo d
 
 CPU overclocké de **1.5 GHz** → **1.9 GHz**. Température stable sous 50°C grâce au ventilateur. L'overclocking, combiné à la légèreté de DietPi, me laisse une marge confortable pour héberger une multitude de services.
 
+
+--------------------------------------
 # 📡 Réseau 
 
 
@@ -151,3 +156,22 @@ j'avais déja un switch non géré qui connectais une partie de mes apareils a m
 <br/>
 
 
+J'utilise aussi un outil appelé **Tailscale** qui crée un tunnel réseau privé entre mes appareils clients et servers, j'utilise cet outil car il me permet d'acceder a mes services partout dans le monde grace a une connection internet la ou autrement j'aurais du rediriger mes ports ce qui peut s'averer dangereux, Tailscale est basé sur wireguard et il assigne une ip a chaque appareil connecté sur le vpn cette configuration marche bien pour mon cas car personne n'utilise mes services au dela des membres de ma famille et mes amis
+
+<img width="474" height="474" alt="tailscale logo" src="https://github.com/user-attachments/assets/769726de-e5f5-4f69-a5c5-00b827c968ec" />
+
+
+
+<div align="center">
+  <img width="474" height="474" alt="tailscale logo" src="https://github.com/user-attachments/assets/769726de-e5f5-4f69-a5c5-00b827c968ec" />
+  <em>Raspberry pi 4B avec un dissipateur</em>
+</div>
+
+<br/>
+
+Maintenant que tout est prêt on peut attaquer le projet et commencer a installer les logiciels essentiels a l'hébergement de me services
+
+
+--------------------------------------------------------
+
+# 🛠 Services
