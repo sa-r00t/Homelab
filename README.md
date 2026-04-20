@@ -16,6 +16,12 @@ Ici je vous présente de façon détaillé ma configuration et la façon dont j'
 
 Pour héberger des services il en faut peu on peut facilement recycler des vielles machines et leurs donner une seconde vie, les 3 grands critéres pour moi sonts Le coût ( a la consomation et en matériel), le bruit ( je veut une machine qui soit le plus silencieuse possible ) et la puissance (plus on a une machine puissante plus on peut héberger des services demandant et dans certains cas méme heberger des llms locaux) .
 
+| Critère | Exigence |
+|---------|----------|
+| **Coût** | Consommation électrique + investissement matériel minimal |
+| **Bruit** | Machine silencieuse (le homelab est dans ma chambre) |
+| **Puissance** | Suffisante pour faire tourner plusieurs services, voire des LLMs légers |
+
 Pour ma part j'ai choisi un Raspberry pi 4B avec 8gb de ram c'est un sbc assez puissant pour sa taille et sa consomation maximale de 15W ( une ampoule électrique a leds consome autant), avec ça j'ai fait un boitié en lego pour le style,j'ai mais un dissipateur sur le processeur puis j'ai branché un ventilateur en 5V sur les pins gpio et j'ai aussi branché un hdd en 2.5 pouce de 500 gb en usb avec un adaptateur sata -> usb pour avoir de l'espace de stockage en plus 
 
 - **Raspberry Pi 4B** : 8 gb de ram processeur 4 coeur overclocké a 1.9 Ghz
