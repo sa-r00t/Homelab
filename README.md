@@ -81,6 +81,7 @@ Pour ma part j'ai choisi un Raspberry pi 4B avec 8gb de ram c'est un sbc assez p
 </div>
 
 
+Maintenant que notre machine est prête on va choisir un systeme d'éxploitation.
 
 ## Spécification Software
 
