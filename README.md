@@ -135,6 +135,9 @@ L'énorme avantage ici, c'est qu'on idle à environ **1-2% de CPU et 80-120 Mo d
 CPU overclocké de **1.5 GHz** → **1.9 GHz**. Température stable sous 50°C grâce au ventilateur. L'overclocking, combiné à la légèreté de DietPi, me laisse une marge confortable pour héberger une multitude de services.
 
 
+<img width="412" height="247" alt="image" src="https://github.com/user-attachments/assets/c3a60753-64c2-4500-9fa3-77bd27173e6f" />
+
+
 --------------------------------------
 # 📡 Réseau 
 
@@ -179,20 +182,47 @@ Mon Raspberry Pi héberge plusieurs services en conteneurs Docker :
 ### 📸 Immich
 Alternative à Google Photos. Sauvegarde automatique de mes photos, reconnaissance de visages, partage d'albums.
 
+
+<img width="1916" height="1042" alt="image" src="https://github.com/user-attachments/assets/4414f4ef-a529-4623-b5d2-3d664fc482cc" />
+
+
 ### 🏠 Home Assistant
 Domotique locale. Gestion des lumières, capteurs de température, automatisations sans passer par le cloud.
+
+
+<img width="1920" height="1034" alt="image" src="https://github.com/user-attachments/assets/12bc492c-1e6a-459b-b308-a4c54db41522" />
+
 
 ### 🎬 Jellyfin
 Serveur multimédia maison. Streaming de mes films et musique sur téléphone, tablette ou TV.
 
+<img width="1920" height="1039" alt="image" src="https://github.com/user-attachments/assets/b206dc74-efc8-4992-845f-7fdac3b7a203" />
+
+
 ### 🤖 Open WebUI + Ollama
 Interface web pour interagir avec des LLM (Mistral, Llama) en local. Pas d'envoi de données à OpenAI ou autre.
+
+
+<img width="1920" height="1042" alt="image" src="https://github.com/user-attachments/assets/4f82372a-fd40-495e-9086-b3d8d0ba0d9c" />
+
 
 ### ⚙️ Windmill
 Plateforme d'automatisation. Alternative à n8n ou Zapier, mais auto-hébergée et open-source.
 
+
+
+<img width="1919" height="1033" alt="image" src="https://github.com/user-attachments/assets/96a2511b-feb2-4bcd-bc26-8097cf5e63df" />
+
+
+
 ### 📁 Samba
 Partage de fichiers sur le réseau local. Accès au HDD 500 Go depuis n'importe quel appareil.
+
+
+
+<img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/d7c73f53-c390-4f61-beca-60c6c90211aa" />
+
+
 
 ### 📊 Homer
 Dashboard central. Page d'accueil perso avec tous mes services en un clic.
@@ -200,8 +230,18 @@ Dashboard central. Page d'accueil perso avec tous mes services en un clic.
 ### 🔌 ESPHome
 Gestion de mes capteurs maison (ESP8266/ESP32). Température, humidité, présence.
 
+
+<img width="1920" height="1027" alt="image" src="https://github.com/user-attachments/assets/e3cde197-3755-4a55-8b05-42ec2da3f204" />
+
+
 ### 🐳 What's Up Docker (WUD)
 Surveillance automatique des mises à jour de mes conteneurs.
+
+
+
+<img width="1920" height="1035" alt="image" src="https://github.com/user-attachments/assets/858e6363-7287-44da-acc2-aad8fa41e4c5" />
+
+
 
 ### Ressources
 
