@@ -316,6 +316,6 @@ La légèreté de DietPi et l'overclocking m'aident à garder de la marge, le tr
 
 
 
-##🛡 Sécurité
+## 🛡 Sécurité
 
 
