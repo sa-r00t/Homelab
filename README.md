@@ -177,10 +177,58 @@ Maintenant que tout est prêt on peut attaquer le projet et commencer a installe
 
 ## 🛠 Services
 
-Mon Raspberry Pi héberge plusieurs services en conteneurs Docker :
+### 🐳 PDocker 
+
+Je n'héberge aucun service "en bare metal" (installé directement sur le système). Tout tourne dans des **conteneurs Docker**.
+
+### Avantages de la contenarisation dans mon cas:
+
+| Avantage | Explication |
+|----------|-------------|
+| **Isolation** | Chaque service est isolé des autres. Si un service plante ou est compromis, les autres ne sont pas affectés. |
+| **Portabilité** | Un conteneur tourne identiquement sur ma machine ou un autre serveur. Je peux migrer facilement sans avoir des problemes de compatibilité. |
+| **Maintenance** | Les mises à jour sont simples : `docker compose pull && docker compose up -d` |
+| **Reproductibilité** | Toute ma configuration est dans des fichiers `docker-compose.yml`. Je peux tout recréer en 10 minutes. |
+| **Légèreté** | Docker n'émule pas un OS complet (contrairement à une VM). Les conteneurs partagent le noyau Linux. |
+
+### Comment j'organise mes conteneurs
+
+Chaque service a son propre dossier avec un `docker-compose.yml` 
+
+
+
+### Commandes que j'utilise au quotidien
+
+```bash
+# Voir tous les conteneurs qui tournent
+docker ps
+
+# Voir les ressources utilisées par conteneur
+docker stats
+
+# Démarrer un service
+docker compose up -d
+
+# Arrêter un service
+docker compose down
+
+# Mettre à jour un service
+docker compose pull
+docker compose up -d
+
+# Voir les logs d'un conteneur
+docker logs <nom_conteneur> --tail 50
+
+# Entrer dans un conteneur (debug)
+docker exec -it <nom_conteneur> sh
+```
+voiçi les containers de mes services sur docker :
+<img width="1781" height="367" alt="image" src="https://github.com/user-attachments/assets/62868692-6542-471b-85aa-0bd5bb8d8288" />
+
+vous pourrez retrouver mes fichiers compose dans leurs répertoire respectif dans cette repo
 
 ### 📸 Immich
-Alternative à Google Photos. Sauvegarde automatique de mes photos, reconnaissance de visages, partage d'albums.
+Alternative à Google Photos. Sauvegarde automatique de mes photos, partage d'albums.
 
 
 <img width="1916" height="1042" alt="image" src="https://github.com/user-attachments/assets/4414f4ef-a529-4623-b5d2-3d664fc482cc" />
@@ -200,7 +248,7 @@ Serveur multimédia maison. Streaming de mes films et musique sur téléphone, t
 
 
 ### 🤖 Open WebUI + Ollama
-Interface web pour interagir avec des LLM (Mistral, Llama) en local. Pas d'envoi de données à OpenAI ou autre.
+Interface web pour interagir avec des LLM (Qwen,Exaone,Llama,...) en local. Pas d'envoi de données à OpenAI ou autre.
 
 
 <img width="1920" height="1042" alt="image" src="https://github.com/user-attachments/assets/4f82372a-fd40-495e-9086-b3d8d0ba0d9c" />
@@ -216,7 +264,7 @@ Plateforme d'automatisation. Alternative à n8n ou Zapier, mais auto-hébergée 
 
 
 ### 📁 Samba
-Partage de fichiers sur le réseau local. Accès au HDD 500 Go depuis n'importe quel appareil.
+Partage de fichiers sur le réseau local NAS. Accès a mon HDD 500 Go depuis n'importe quel appareil.
 
 
 
@@ -228,7 +276,7 @@ Partage de fichiers sur le réseau local. Accès au HDD 500 Go depuis n'importe 
 Dashboard central. Page d'accueil perso avec tous mes services en un clic.
 
 ### 🔌 ESPHome
-Gestion de mes capteurs maison (ESP8266/ESP32). Température, humidité, présence.
+Gestion de mes capteurs maison sur les microcontrolleurs (ESP8266/ESP32). Température, humidité, présence.
 
 
 <img width="1920" height="1027" alt="image" src="https://github.com/user-attachments/assets/e3cde197-3755-4a55-8b05-42ec2da3f204" />
@@ -243,15 +291,31 @@ Surveillance automatique des mises à jour de mes conteneurs.
 
 
 
+
+
+
+
 ### Ressources
 
 Avec 8 Go de RAM, la configuration tient confortablement :
 
 | Métrique | Valeur |
 |----------|--------|
-| RAM utilisée | ~3.5-4 Go |
+| RAM utilisée | ~2.5-4 Go |
 | RAM libre | ~3.5-4 Go |
 | CPU moyenne | < 5% |
-| CPU pic | ~18% (base de données) |
+| CPU pic | ~25% (base de données) |
 
-La légèreté de DietPi et l'overclocking m'aident à garder de la marge.
+consomation de ram par service : 
+
+<img width="818" height="326" alt="image" src="https://github.com/user-attachments/assets/dcd178d7-4233-4af5-befd-2d141bbd9243" />
+
+
+La légèreté de DietPi et l'overclocking m'aident à garder de la marge, le travail d'optimissation a été respecté .
+
+
+
+
+##🛡 Sécurité
+
+
