@@ -177,7 +177,7 @@ Maintenant que tout est prêt on peut attaquer le projet et commencer a installe
 
 ## 🛠 Services
 
-### 🐳 PDocker 
+### 🐳 Docker 
 
 Je n'héberge aucun service "en bare metal" (installé directement sur le système). Tout tourne dans des **conteneurs Docker**.
 
@@ -318,4 +318,4 @@ La légèreté de DietPi et l'overclocking m'aident à garder de la marge, le tr
 
 ## 🛡 Sécurité
 
-
+La sécurité est aussi un aspect important de mon projet 
