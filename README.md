@@ -306,7 +306,7 @@ Avec 8 Go de RAM, la configuration tient confortablement :
 | CPU moyenne | < 5% |
 | CPU pic | ~25% (base de données) |
 
-consomation de ram par service : 
+consomation de ressources par service : 
 
 <img width="818" height="326" alt="image" src="https://github.com/user-attachments/assets/dcd178d7-4233-4af5-befd-2d141bbd9243" />
 
