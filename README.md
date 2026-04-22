@@ -319,3 +319,25 @@ La légèreté de DietPi et l'overclocking m'aident à garder de la marge, le tr
 ## 🛡 Sécurité
 
 La sécurité est aussi un aspect important de mon projet 
+
+### Tailscale 
+
+Comme évoqué précedamment le fait d'avoir tailscale me permet d'acceder a mes services depuis n'importe ou dans le monde ce qui fait que je n'ai pas besoin de rediriger mes ports ce qui vien éliminer une potentielle voie pour des attaques
+
+### Honeypot
+
+J'ai déployé un honeypot sur le port 22 de ma machine qui est le port ssh pour mieu comprendre les menaces qui touchent mon server notament sur le port 22 du protocole ssh 
+
+<img width="1500" height="815" alt="image" src="https://github.com/user-attachments/assets/9723d6f0-b765-4550-a9f9-8514af238730" />
+
+
+On peut voir sur cette capture d'écran qu'on a les logs a gauche et un potentiel attaquant qui tenterais de se connecter au serveur via le protocole ssh, on vois sur les logs l'ip de l'attaquant quand es ce qu'il s'est connécté avec quel utilisateur/mot de passe et ensuite quand il est connecté sur le honeypot et qu'il tente par exemple d'installer un logiciel malveillant sur la machine on vois les commandes qu'il rentre et tout ses faits et gestes en général
+
+
+grace a ça non seulement on deviens plus concient des dangers d'ouvrir des ports de façon non sécurisée et en plus on apprend a adopter une maniére de dévélopper, deployer, et utiliser nos programmes/services/logiciels de maniére plus sécurisée et résponsable  
+
+
+bien que les honeypots servent a sécuriser mon systeme il peut aussi devenir une passerelle au vrai systeme ce qui est trés dangereux pour ce fait il est important d'isoler le honeypot en employant la contenarisation, la virtualisation ou même encore le séparer completement et le deployer sur une machine dédié qui ne contient que le honeypot et ou d'autres services dédiés a la sécurité des autres machines de l'écosysteme 
+
+
+### Parefeu
