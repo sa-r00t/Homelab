@@ -313,8 +313,7 @@ consomation de ressources par service :
 
 La légèreté de DietPi et l'overclocking m'aident à garder de la marge, le travail d'optimissation a été respecté .
 
-
-
+Salut !
 
 ## 🛡 Sécurité
 
