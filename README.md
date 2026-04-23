@@ -340,3 +340,25 @@ bien que les honeypots servent a sécuriser mon systeme il peut aussi devenir un
 
 
 ### Parefeu
+
+
+
+Pour combler mon arsenal de sécurité sur ma machine je vais configurer un parefeu sur les ports que j'utilise pour garder un controle total de ce qui sort et entre 
+
+
+<img width="1554" height="840" alt="image" src="https://github.com/user-attachments/assets/b8b3f9d2-975d-4716-81cf-3165469f7f33" />
+
+
+voiçi les régles de plus près :
+
+
+<img width="598" height="122" alt="image" src="https://github.com/user-attachments/assets/68d654d7-568b-4eaa-a9b6-662c463bc64c" />
+
+
+Donc maintenant que le firewall fonctionne correctement j'ai fait en sorte que  :
+
+
+- mes appareils autorisés qui ont un accés complet au server 
+- mon honeypot reste ouvert pour continuer de recevoir des donées et évaluer les risques des attaques sur le port 22
+- Toute personne non autorisée est est refusée catégoriquement par le parfeu
+
