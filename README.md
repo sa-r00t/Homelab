@@ -477,7 +477,8 @@ avec tout ça on a donc un stack de sécurité fonctionnel qui a une vraie utili
 
 **Infrastructure**
 - [ ] Mettre en place un **reverse proxy** (Nginx) avec HTTPS (Let's Encrypt)
-- [ ] Automatiser les backups vers un cloud externe
+- [ ] Mettre en place des backups sur une autre machine
+- [ ] Automatiser les backups
 
 
 **Domotique / Automatisation**
