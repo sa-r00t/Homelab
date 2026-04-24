@@ -362,3 +362,4 @@ Donc maintenant que le firewall fonctionne correctement j'ai fait en sorte que  
 - mon honeypot reste ouvert pour continuer de recevoir des donées et évaluer les risques des attaques sur le port 22
 - Toute personne non autorisée est est refusée catégoriquement par le parfeu
 
+avec tout ça on a donc un stack de sécurité fonctionnel qui a une vraie utilité et qui me permet de faire de sécuriser mon tout, (on peut aller pousser la chose encore plus loin en faisant un vrai soc avec des automations par rapport au honeypot par exemple,automatiser les mises a jours systeme, ou encore créer un vrai soc maison , ...)
