@@ -363,3 +363,132 @@ Donc maintenant que le firewall fonctionne correctement j'ai fait en sorte que  
 - Toute personne non autorisée est est refusée catégoriquement par le parfeu
 
 avec tout ça on a donc un stack de sécurité fonctionnel qui a une vraie utilité et qui me permet de faire de sécuriser mon tout, (on peut aller pousser la chose encore plus loin en faisant un vrai soc avec des automations par rapport au honeypot par exemple,automatiser les mises a jours systeme, ou encore créer un vrai soc maison , ...)
+
+
+--------------------------
+
+## Conclusions
+
+### Ce que j'ai appris durant ce projet
+
+#### Compétences techniques
+
+**Systèmes**
+- Maintenir une infrastructure complète (hardware → OS → réseau → services)
+- Choisir une distribution Linux adaptée (DietPi) pour des raisons précises (minimalisme, ARM, performances)
+- Overclocker et refroidir un Raspberry Pi (température stable sous 50°C)
+- Gérer les ressources système (RAM, CPU) pour optimiser les performances
+
+**Réseau**
+- Configurer un VPN (Tailscale) pour accéder à mes services à distance sans ouvrir de ports
+- Comprendre le NAT, le DHCP et les redirections de ports
+- Isoler mes services derrière un pare-feu (UFW) avec des règles par IP
+
+**Conteneurisation (Docker)**
+- Utiliser Docker Compose pour déployer et gérer des services
+- Isoler chaque service dans son propre conteneur
+- Persister les données avec des volumes
+- Mettre à jour proprement : `docker compose pull && docker compose up -d`
+
+**Sécurité**
+- Mettre en place un honeypot (Cowrie) pour analyser des attaques réelles
+- Configurer un pare-feu (UFW) avec des règles strictes (accès par IP uniquement)
+- Isoler le honeypot dans Docker pour qu'il ne compromette pas le vrai système
+- Comprendre les limites : un honeypot mal isolé peut devenir une passerelle
+
+**Services**
+- Héberger mes propres alternatives aux GAFAM :
+  - **Immich** → Google Photos
+  - **Jellyfin** → Netflix
+  - **Home Assistant** → Domotique en local
+  - **Open WebUI + Ollama** → ChatGPT local
+  - **Windmill** → Zapier / n8n
+  - **ntfy** → Notifications push
+  - **WUD** → Mises à jour automatiques Docker
+
+---
+
+#### Compétences transversales (soft skills)
+
+**Autonomie**
+- Apprendre par moi-même sans cadre scolaire
+- Chercher des solutions sur la documentation, les forums, GitHub
+- Tester, casser, réparer, recommencer
+
+
+**Résolution de problèmes**
+- Diagnostiquer des erreurs (logs, `docker logs`, `journalctl`)
+- Comprendre pourquoi un service ne démarre pas (port occupé, config erronée, permission)
+- Isoler un problème et le résoudre étape par étape
+
+
+**Patience et persévérance**
+- Réinstaller DietPi plusieurs fois avant d'avoir une config stable
+- Passer des heures à comprendre pourquoi un conteneur ne répond pas
+- Accepter que ça ne marche pas du premier coup
+
+
+**Curiosité et veille technologique**
+- Découvrir de nouveaux outils (Immich, ntfy, WUD, Tailscale)
+- Lire des blogs, des docs, des issues GitHub
+- Tester des alternatives avant de choisir (Ubuntu vs Raspberry Pi OS vs DietPi)
+
+
+**Organisation et rigueur**
+- Structurer ma documentation (README clair, dossiers par service)
+- Sauvegarder mes configurations (`docker-compose.yml`)
+- Anticiper les problèmes (backups, monitoring)
+
+
+**Communication**
+- Documenter mon travail pour qu'il soit compréhensible par d'autres
+- Expliquer mes choix techniques (pourquoi j'ai pris DietPi plutôt qu'Ubuntu)
+- Partager mon projet sur GitHub
+
+
+
+---
+
+### Ce que je retiens
+
+> *"Mon homelab n'est pas juste un serveur. C'est la preuve qu'on peut reprendre le contrôle de ses données et de ses outils — et que le chemin pour y arriver est aussi instructif et enrichissant que le résultat."*
+
+---
+
+
+### Prochaines étapes
+
+**Matériel**
+- [ ] me procurer une machine sur une architecture **x86** (mini PC type N100 ou NUC) pour plus de puissance et la capaciter a faire de la virtualisation
+- [ ] Installer **Proxmox** pour faire de la virtualisation (plusieurs VMs, snapshots, backups)
+
+**Virtualisation**
+- [ ] Migrer mes services Docker dans des **LXC** sous Proxmox
+- [ ] Apprendre et Tester **Kubernetes** (k3s) sur plusieurs nœuds
+
+**IA locale**
+- [ ] me procurer une machine dédiée au **LLM** (GPU ou accélérateur Intel/AMD)
+- [ ] éxpérimenter avec des llms plus puissants et faire de l'automatisation avec un llm et windmill
+
+**Sécurité (SOC maison)**
+- [ ] Centraliser les logs (**ELK Stack** ou **Grafana Loki**)
+- [ ] Ajouter un dashboard de sécurité (alertes en temps réel)
+- [ ] Automatiser la réponse aux attaques (fail2ban + webhook ntfy)
+
+**Infrastructure**
+- [ ] Mettre en place un **reverse proxy** (Nginx) avec HTTPS (Let's Encrypt)
+- [ ] Automatiser les backups vers un cloud externe
+
+
+**Domotique / Automatisation**
+- [ ] Ajouter **Node-RED** pour des automatisations plus avancées
+- [ ] Remplacer Windmill par **n8n** ou **ActivePieces** si besoin
+- [ ] intégrer plus d'objets connéctés
+
+---------------------------
+
+Merci d'avoir pris le temps de lire ma documentation.
+
+Ce projet est en constante évolution. N'hésitez pas à jeter un œil aux prochaines étapes ou à me contacter si vous avez des questions.
+
+— Sa-r00t
