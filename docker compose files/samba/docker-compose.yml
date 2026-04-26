@@ -1,0 +1,17 @@
+services:
+  samba:
+    image: dperson/samba
+    container_name: samba
+    restart: unless-stopped
+    privileged: true
+    ports:
+      - "445:445"
+    command: |
+      -u "bigthor;Asma1982!!!!"
+      -s "NAS;/nas;yes;no;yes"
+      -g "force user = root"
+      -g "force group = root"
+      -g "create mask = 0777"
+      -g "directory mask = 0777"
+    volumes:
+      - /mnt/hdd:/nas

@@ -35,7 +35,7 @@ Pour ma part j'ai choisi un Raspberry pi 4B avec 8gb de ram c'est un sbc assez p
 ### Galerie du matériel:
 
 <div align="center">
-  <img width="450" alt="Raspberry pi 4B avec un dissipateur" src="https://github.com/user-attachments/assets/9a0f9193-f69d-456d-8197-4bf9a9c7cb8a" />
+  <img width="450" alt="Raspberry pi 4B avec un dissipateur" src="images/img1.jpg" />
   <br/>
   <em>Raspberry pi 4B avec un dissipateur</em>
 </div>
@@ -43,7 +43,7 @@ Pour ma part j'ai choisi un Raspberry pi 4B avec 8gb de ram c'est un sbc assez p
 <br/>
 
 <div align="center">
-  <img width="450" alt="Raspberry dans son boitié" src="https://github.com/user-attachments/assets/3ebc6061-be03-42d6-aa94-9b46c136076f" />
+  <img width="450" alt="Raspberry dans son boitié" src="images/img2.jpg" />
   <br/>
   <em>Raspberry dans son boitié</em>
 </div>
@@ -51,7 +51,7 @@ Pour ma part j'ai choisi un Raspberry pi 4B avec 8gb de ram c'est un sbc assez p
 <br/>
 
 <div align="center">
-  <img width="450" alt="Disque dur HDD 500GB" src="https://github.com/user-attachments/assets/7289e5e9-7f24-48fb-98de-50341dd81254" />
+  <img width="450" alt="Disque dur HDD 500GB" src="images/img3.jpg" />
   <br/>
   <em>Disque dur HDD 500GB</em>
 </div>
@@ -59,7 +59,7 @@ Pour ma part j'ai choisi un Raspberry pi 4B avec 8gb de ram c'est un sbc assez p
 <br/>
 
 <div align="center">
-  <img width="450" alt="Ventilateur" src="https://github.com/user-attachments/assets/937519a2-8c0b-4c09-8528-8b1becd06205" />
+  <img width="450" alt="Ventilateur" src="images/img3.5.jpg" />
   <br/>
   <em>Ventilateur</em>
 </div>
@@ -67,7 +67,7 @@ Pour ma part j'ai choisi un Raspberry pi 4B avec 8gb de ram c'est un sbc assez p
 <br/>
 
 <div align="center">
-  <img width="450" alt="montage complet" src="https://github.com/user-attachments/assets/db9dda38-f8cd-4892-8c0b-9a212cff51c3" />
+  <img width="450" alt="montage complet" src="images/img4.jpg" />
   <br/>
   <em>montage complet</em>
 </div>
@@ -137,7 +137,7 @@ L'énorme avantage ici, c'est qu'on idle à environ **1-2% de CPU et 80-120 Mo d
 CPU overclocké de **1.5 GHz** → **1.9 GHz**. Température stable sous 50°C grâce au ventilateur. L'overclocking, combiné à la légèreté de DietPi, me laisse une marge confortable pour héberger une multitude de services.
 
 
-<img width="412" height="247" alt="image" src="https://github.com/user-attachments/assets/c3a60753-64c2-4500-9fa3-77bd27173e6f" />
+<img width="412" height="247" alt="image" src="images/img5.png" />
 
 
 --------------------------------------
@@ -153,7 +153,7 @@ j'avais déja un switch non géré qui connectais une partie de mes apareils a m
 <br/>
 
 <div align="center">
-  <img width="450" alt="Shémas réseau" src="https://github.com/user-attachments/assets/78dca411-93b5-4265-9fb9-2e36ae04158d" />
+  <img width="450" alt="Shémas réseau" src="images/img6.png />
   <br/>
   <em>Shémas réseau</em>
 </div>
@@ -166,7 +166,7 @@ J'utilise aussi un outil appelé **Tailscale** qui crée un tunnel réseau priv�
 
 
 <div align="center">
-  <img width="1347" height="503" alt="image" src="https://github.com/user-attachments/assets/f14c90fe-3bb8-41c0-9832-c05032fdbb72" />
+  <img width="1347" height="503" alt="image" src="images/img7.png" />
   <em>Shémas Tailscale</em>
 </div>
 
@@ -225,7 +225,7 @@ docker logs <nom_conteneur> --tail 50
 docker exec -it <nom_conteneur> sh
 ```
 voiçi les containers de mes services sur docker :
-<img width="1781" height="367" alt="image" src="https://github.com/user-attachments/assets/62868692-6542-471b-85aa-0bd5bb8d8288" />
+<img width="1781" height="367" alt="image" src="images/img8.png" />
 
 vous pourrez retrouver mes fichiers compose dans leurs répertoire respectif dans cette repo
 
@@ -233,27 +233,27 @@ vous pourrez retrouver mes fichiers compose dans leurs répertoire respectif dan
 Alternative à Google Photos. Sauvegarde automatique de mes photos, partage d'albums.
 
 
-<img width="1916" height="1042" alt="image" src="https://github.com/user-attachments/assets/4414f4ef-a529-4623-b5d2-3d664fc482cc" />
+<img width="1916" height="1042" alt="image" src="images/img9.png" />
 
 
 ### 🏠 Home Assistant
 Domotique locale. Gestion des lumières, capteurs de température, automatisations sans passer par le cloud.
 
 
-<img width="1920" height="1034" alt="image" src="https://github.com/user-attachments/assets/12bc492c-1e6a-459b-b308-a4c54db41522" />
+<img width="1920" height="1034" alt="image" src="images/img10.png" />
 
 
 ### 🎬 Jellyfin
 Serveur multimédia maison. Streaming de mes films et musique sur téléphone, tablette ou TV.
 
-<img width="1920" height="1039" alt="image" src="https://github.com/user-attachments/assets/b206dc74-efc8-4992-845f-7fdac3b7a203" />
+<img width="1920" height="1039" alt="image" src="images/img11.png" />
 
 
 ### 🤖 Open WebUI + Ollama
 Interface web pour interagir avec des LLM (Qwen,Exaone,Llama,...) en local. Pas d'envoi de données à OpenAI ou autre.
 
 
-<img width="1920" height="1042" alt="image" src="https://github.com/user-attachments/assets/4f82372a-fd40-495e-9086-b3d8d0ba0d9c" />
+<img width="1920" height="1042" alt="image" src="images/img12.png" />
 
 
 ### ⚙️ Windmill
@@ -261,7 +261,7 @@ Plateforme d'automatisation. Alternative à n8n ou Zapier, mais auto-hébergée 
 
 
 
-<img width="1919" height="1033" alt="image" src="https://github.com/user-attachments/assets/96a2511b-feb2-4bcd-bc26-8097cf5e63df" />
+<img width="1919" height="1033" alt="image" src="images/img13.png" />
 
 
 
@@ -270,18 +270,20 @@ Partage de fichiers sur le réseau local NAS. Accès a mon HDD 500 Go depuis n'i
 
 
 
-<img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/d7c73f53-c390-4f61-beca-60c6c90211aa" />
+<img width="1920" height="1040" alt="image" src="images/img14.png" />
 
 
 
 ### 📊 Homer
 Dashboard central. Page d'accueil perso avec tous mes services en un clic.
 
+<img width="1920" height="1040" alt="image" src="images/img14.5.png" />
+
 ### 🔌 ESPHome
 Gestion de mes capteurs maison sur les microcontrolleurs (ESP8266/ESP32). Température, humidité, présence.
 
 
-<img width="1920" height="1027" alt="image" src="https://github.com/user-attachments/assets/e3cde197-3755-4a55-8b05-42ec2da3f204" />
+<img width="1920" height="1027" alt="image" src="images/img15.png" />
 
 
 ### 🐳 What's Up Docker (WUD)
@@ -289,7 +291,7 @@ Surveillance automatique des mises à jour de mes conteneurs.
 
 
 
-<img width="1920" height="1035" alt="image" src="https://github.com/user-attachments/assets/858e6363-7287-44da-acc2-aad8fa41e4c5" />
+<img width="1920" height="1035" alt="image" src="images/img16.png" />
 
 
 
@@ -310,7 +312,7 @@ Avec 8 Go de RAM, la configuration tient confortablement :
 
 consomation de ressources par service : 
 
-<img width="818" height="326" alt="image" src="https://github.com/user-attachments/assets/dcd178d7-4233-4af5-befd-2d141bbd9243" />
+<img width="818" height="326" alt="image" src="img17.png" />
 
 
 La légèreté de DietPi et l'overclocking m'aident à garder de la marge, le travail d'optimissation a été respecté .
@@ -329,7 +331,7 @@ Comme évoqué précedamment le fait d'avoir tailscale me permet d'acceder a mes
 
 J'ai déployé un honeypot sur le port 22 de ma machine qui est le port ssh pour mieu comprendre les menaces qui touchent mon server notament sur le port 22 du protocole ssh 
 
-<img width="1500" height="815" alt="image" src="https://github.com/user-attachments/assets/9723d6f0-b765-4550-a9f9-8514af238730" />
+<img width="1500" height="815" alt="image" src="images/img18.png" />
 
 
 On peut voir sur cette capture d'écran qu'on a les logs a gauche et un potentiel attaquant qui tenterais de se connecter au serveur via le protocole ssh, on vois sur les logs l'ip de l'attaquant quand es ce qu'il s'est connécté avec quel utilisateur/mot de passe et ensuite quand il est connecté sur le honeypot et qu'il tente par exemple d'installer un logiciel malveillant sur la machine on vois les commandes qu'il rentre et tout ses faits et gestes en général
@@ -348,13 +350,13 @@ bien que les honeypots servent a sécuriser mon systeme il peut aussi devenir un
 Pour combler mon arsenal de sécurité sur ma machine je vais configurer un parefeu sur les ports que j'utilise pour garder un controle total de ce qui sort et entre 
 
 
-<img width="1554" height="840" alt="image" src="https://github.com/user-attachments/assets/b8b3f9d2-975d-4716-81cf-3165469f7f33" />
+<img width="1554" height="840" alt="image" src="images/img19.png" />
 
 
 voiçi les régles de plus près :
 
 
-<img width="598" height="122" alt="image" src="https://github.com/user-attachments/assets/68d654d7-568b-4eaa-a9b6-662c463bc64c" />
+<img width="598" height="122" alt="image" src="images/img20.png" />
 
 
 Donc maintenant que le firewall fonctionne correctement j'ai fait en sorte que  :

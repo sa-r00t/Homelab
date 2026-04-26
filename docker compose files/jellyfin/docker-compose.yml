@@ -1,0 +1,25 @@
+services:
+  jellyfin:
+    image: jellyfin/jellyfin
+    container_name: jellyfin
+    ports:
+      - 8096:8096/tcp
+      - 7359:7359/udp
+    volumes:
+      - /home/dietpi/docker_images/jellyfin/config:/config
+      - /home/dietpi/docker_images/jellyfin/cache:/cache
+      - type: bind
+        source: /mnt/hdd/jellyfin/media/movies
+        target: /media/movies
+
+      - type: bind
+        source: /mnt/hdd/jellyfin/media/series
+        target: /media/series
+        read_only: true
+
+      - type: bind
+        source: /mnt/hdd/jellyfin/media/music
+        target: /media/music
+        read_only: true
+    restart: 'unless-stopped'
+

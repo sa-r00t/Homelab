@@ -1,0 +1,12 @@
+services:
+  cowrie:
+    image: cowrie/cowrie:latest
+    container_name: cowrie
+    restart: unless-stopped
+    ports:
+      - "22:2222"
+    volumes:
+      - ./cowrie-logs:/cowrie/var/log/cowrie
+    environment:
+      - COWRIE_SSH_ENABLED=yes
+      - COWRIE_TELNET_ENABLED=no

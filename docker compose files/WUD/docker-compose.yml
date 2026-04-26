@@ -1,0 +1,15 @@
+services:
+  wud:
+    image: getwud/wud:latest
+    container_name: wud
+    restart: unless-stopped
+    ports:
+      - "3001:3000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - TZ=Europe/London
+      # Patch-level auto-updates only (safer)
+      - WUD_TRIGGER_DOCKER_LOCAL_THRESHOLD=patch
+      # Clean up old images
+      - WUD_CLEANUP=true
